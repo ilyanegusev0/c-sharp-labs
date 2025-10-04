@@ -6,12 +6,13 @@ namespace HospitalManagementSystem
     {
         static void Main(string[] args)
         {
-            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-            Console.InputEncoding = Encoding.GetEncoding(1251);
-            Console.OutputEncoding = Encoding.GetEncoding(1251);
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            HospitalDemo hospitalDemo = new HospitalDemo();
-            hospitalDemo.Run();
+            HospitalDemo demo = new HospitalDemo();
+            demo.Run();
+
+            Console.Write("\nНатисніть будь-яку клавішу для виходу... ");
+            Console.ReadKey();
         }
     }
 }
