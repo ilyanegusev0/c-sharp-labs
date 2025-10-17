@@ -6,5 +6,6 @@
 
 # НАВІГАЦІЯ:
 
-- [Лабораторна робота #1](https://github.com/ilyanegusev0/C-Sharp-Learing-by-DUIKT/tree/Lab1)
-- [Лабораторна робота #2](https://github.com/ilyanegusev0/C-Sharp-Learing-by-DUIKT/tree/Lab2)
+- [Лабораторна робота #1](https://github.com/ilyanegusev0/c-sharp-learning-by-duikt/tree/lab1)
+- [Лабораторна робота #2](https://github.com/ilyanegusev0/c-sharp-learning-by-duikt/tree/lab2)
+- [Лабораторна робота #3](https://github.com/ilyanegusev0/c-sharp-learning-by-duikt/tree/lab3)
