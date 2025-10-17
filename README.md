@@ -1,8 +1,8 @@
-# Лабораторна робота #2
+# Лабораторна робота #3
 
 **Виконав:** Негусєв І. В.
 
 **Група:** ПД-25
 
 # Screenshots:
-![Unit Tests 2](screenshots/unit-tests.png)
+![Unit Tests #3](screenshots/lab3-tests.png)
