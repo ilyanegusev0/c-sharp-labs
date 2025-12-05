@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="App/App.csproj" Id="8f4ea326-0479-4d34-b258-bd15f7b84b8a" />
+  <Project Path="RestaurantManagementSystem/RestaurantManagementSystem.csproj" />
+  <Project Path="Utils/Utils.csproj" />
+</Solution>
