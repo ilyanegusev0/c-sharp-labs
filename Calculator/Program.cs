@@ -2,9 +2,13 @@
 {
     delegate double MathOperation(double a, double b);
 
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
+        {
+            Run();
+        }
+        public static void Run()
         {
             MathOperation mo;
 
@@ -26,19 +30,19 @@
             Console.WriteLine($"Divide({a}, {b}): {mo(a, b)}");
         }
 
-        static public double Add(double a, double b)
+        static double Add(double a, double b)
         {
             return a + b;
         }
-        static public double Subtract(double a, double b)
+        static double Subtract(double a, double b)
         {
             return a - b;
         }
-        static public double Multiply(double a, double b)
+        static double Multiply(double a, double b)
         {
             return a * b;
         }
-        static public double Divide(double a, double b)
+        static double Divide(double a, double b)
         {
             return a / b;
         }

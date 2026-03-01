@@ -2,9 +2,13 @@
 {
     delegate void NotificationHandler(string message);
 
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
+        {
+            Run();
+        }
+        public static void Run()
         {
             NotificationHandler nh;
 
@@ -17,11 +21,11 @@
             nh("Hello!");
         }
 
-        static public void SendEmail(string message)
+        static void SendEmail(string message)
         {
             Console.WriteLine($"Email sent: {message}");
         }
-        static public void SendSMS(string message)
+        static void SendSMS(string message)
         {
             Console.WriteLine($"SMS sent: {message}");
         }

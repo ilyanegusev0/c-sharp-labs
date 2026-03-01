@@ -2,9 +2,13 @@
 {
     delegate bool Validator(string value);
 
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
+        {
+            Run();
+        }
+        public static void Run()
         {
             Validator nameValidator = GetValidator(3);
             Validator passwordValidator = GetValidator(8);
@@ -44,7 +48,7 @@
                 $"Password: {password}");
         }
 
-        public static Validator GetValidator(int minLength)
+        static Validator GetValidator(int minLength)
         {
             return value => value.Length > minLength;
         }

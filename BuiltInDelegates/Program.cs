@@ -2,13 +2,16 @@
 
 namespace BuiltInDelegates
 {
-
-    internal class Program
+    public class Program
     {
-        static public Func<double, double, double> calculate;
-        static public Predicate<string> filter;
+        static Func<double, double, double> calculate;
+        static Predicate<string> filter;
 
         static void Main(string[] args)
+        {
+            Run();
+        }
+        public static void Run()
         {
             double a = 5;
             double b = 10;
@@ -52,7 +55,7 @@ namespace BuiltInDelegates
             PrintArray(names.FindAll(i => filter(i)));
         }
 
-        static public void PrintArray(IEnumerable items)
+        static void PrintArray(IEnumerable items)
         {
             foreach (var item in items)
                 Console.Write($"{item}, ");

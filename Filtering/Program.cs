@@ -1,9 +1,13 @@
 ﻿namespace Filtering
 {
     delegate bool FilterPredicate(int value);
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
+        {
+            Run();
+        }
+        public static void Run()
         {
             FilterPredicate fp;
 
@@ -28,7 +32,7 @@
             Console.WriteLine();
         }
 
-        static public int[] FilterArray(int[] numbers, FilterPredicate fp)
+        static int[] FilterArray(int[] numbers, FilterPredicate fp)
         {
             List<int> filteredArray = new List<int>();
 
@@ -41,7 +45,7 @@
             return filteredArray.ToArray();
         }
 
-        static public int[] GetRandomArray(int size, int min, int max)
+        static int[] GetRandomArray(int size, int min, int max)
         {
             Random random = new Random();
             int[] array = new int[size];
@@ -52,7 +56,7 @@
             return array;
         }
 
-        static public void PrintArray(int[] numbers)
+        static void PrintArray(int[] numbers)
         {
             foreach (int num in numbers)
                 Console.Write($"{num} ");
