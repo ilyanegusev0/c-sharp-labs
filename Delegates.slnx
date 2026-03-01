@@ -2,5 +2,6 @@
   <Project Path="BuiltInDelegates/BuiltInDelegates.csproj" />
   <Project Path="Calculator/Calculator.csproj" />
   <Project Path="Filtering/Filtering.csproj" />
+  <Project Path="Logging/Logging.csproj" />
   <Project Path="Multicasting/Multicasting.csproj" />
 </Solution>
