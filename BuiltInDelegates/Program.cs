@@ -13,7 +13,7 @@ namespace BuiltInDelegates
             double a = 5;
             double b = 10;
 
-            Console.WriteLine("Math operation with built-in delegate Func:");
+            Console.WriteLine("Math operations with built-in delegate Func:");
 
             calculate = (x, y) => x + y;
             Console.WriteLine($"Add({a}, {b}): {calculate(a, b)}");
@@ -43,12 +43,12 @@ namespace BuiltInDelegates
                 "Frank"
             };
 
-            Console.WriteLine("Names:");
+            Console.WriteLine("Origin array:");
             PrintArray(names);
             Console.WriteLine();
 
             filter = value => value.StartsWith('B');
-            Console.WriteLine("Filtered names (start with letter B):");
+            Console.WriteLine("Filtered array (starts with letter B):");
             PrintArray(names.FindAll(i => filter(i)));
         }
 

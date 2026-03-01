@@ -6,6 +6,8 @@
         {
             Logger logger = new Logger();
 
+            Console.WriteLine("Show message with different rules on LogHandler:");
+
             logger.LogHandler = msg => Console.WriteLine(msg);
             logger.Log("It's a normal message.");
 

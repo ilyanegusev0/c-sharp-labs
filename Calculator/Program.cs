@@ -11,6 +11,8 @@
             double a = 5;
             double b = 10;
 
+            Console.WriteLine("Math operations with  delegate MathOperation:");
+
             mo = Add;
             Console.WriteLine($"Add({a}, {b}): {mo(a, b)}");
 

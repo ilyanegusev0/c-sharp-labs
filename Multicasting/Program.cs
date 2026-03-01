@@ -8,8 +8,11 @@
         {
             NotificationHandler nh;
 
+
             nh = SendEmail;
             nh += SendSMS;
+
+            Console.WriteLine("Two methods with one delegate NotificationHandler:");
 
             nh("Hello!");
         }
