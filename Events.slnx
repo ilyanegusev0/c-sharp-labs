@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GameDevObserverPattern/GameDevObserverPattern.csproj" Id="dad92b96-70d9-4911-b0a1-c8f07b8bbd1e" />
+  <Project Path="ObserverPattern/ObserverPattern.csproj" />
+</Solution>
