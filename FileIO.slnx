@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Analyzer/Analyzer.csproj" />
+  <Project Path="Cleaner/Cleaner.csproj" />
+  <Project Path="FileAnalyzerCLI/FileAnalyzerCLI.csproj" />
+  <Project Path="Inspector/Inspector.csproj" />
+  <Project Path="Searcher/Searcher.csproj" />
+</Solution>
