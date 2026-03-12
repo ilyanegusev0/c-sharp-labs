@@ -13,5 +13,6 @@
 - [Лабораторна робота #5](https://github.com/ilyanegusev0/c-sharp-labs/tree/lab5-sem3)
 
 ## Четвертий семестр
-- [Практична робота #1](https://github.com/ilyanegusev0/c-sharp-labs/tree/lab1-sem4)
-- [Практична робота #2](https://github.com/ilyanegusev0/c-sharp-labs/tree/lab2-sem4)
+- [Практична робота #1](https://github.com/ilyanegusev0/c-sharp-labs/tree/pr1-sem4)
+- [Практична робота #2](https://github.com/ilyanegusev0/c-sharp-labs/tree/pr2-sem4)
+- [Практична робота #3](https://github.com/ilyanegusev0/c-sharp-labs/tree/pr3-sem4)
