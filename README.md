@@ -1,10 +1,18 @@
-# Лабораторна робота #?
+# Модульна робота #1
 
-**Курс:** \
-**Семестр:** \
+**Курс:** 2 \
+**Семестр:** 4 \
 **Виконав:** Негусєв І. В.\
 **Група:** ПД-25
 
 # Screenshots:
 
-![Unit Tests #?](lab?-tests.png)
+## Task1
+
+### Input file:
+
+![Task1. Input file](task1-1.png)
+
+### Output file:
+
+![Task1. Output file](task1-2.png)
