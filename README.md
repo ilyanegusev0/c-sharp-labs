@@ -16,3 +16,13 @@
 ### Output file:
 
 ![Task1. Output file](task1-2.png)
+
+## Task2
+
+### Console view:
+
+![Task2. Console view](task2-1.png)
+
+### Log file:
+
+![Task2. Log file](task2-2.png)
