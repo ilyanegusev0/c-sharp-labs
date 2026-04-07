@@ -4,6 +4,12 @@ namespace TaskTracker
 {
     internal class TaskManager
     {
+        private static JsonSerializerOptions _options = new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+        };
+
         public List<Task> Tasks { get; set; }
 
         public TaskManager()
@@ -30,13 +36,7 @@ namespace TaskTracker
 
         public void Save(string path)
         {
-            var options = new JsonSerializerOptions
-            {
-                WriteIndented = true,
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-            };
-
-            string json = JsonSerializer.Serialize(this, options);
+            string json = JsonSerializer.Serialize(this, _options);
             File.WriteAllText(path, json);
             Console.WriteLine($"\nSaved {Tasks.Count} tasks.");
         }
@@ -46,7 +46,7 @@ namespace TaskTracker
             if (File.Exists(path))
             {
                 string json = File.ReadAllText(path);
-                TaskManager? taskManager = JsonSerializer.Deserialize<TaskManager>(json);
+                TaskManager? taskManager = JsonSerializer.Deserialize<TaskManager>(json, _options);
                 Console.WriteLine($"Loaded {taskManager?.Tasks.Count} tasks.\n");
                 return taskManager;
             }
