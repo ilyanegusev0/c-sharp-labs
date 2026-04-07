@@ -7,7 +7,7 @@
 
 # Screenshots:
 
-## Task #1. TaskTracker
+## Task #1
 
 ### First launch:
 
@@ -20,3 +20,11 @@
 ### JSON-file:
 
 ![Task #1. JSON-file](docs/task1-2.png)
+
+## Task #2
+
+### JSON-file:
+![Task #2. JSON-file](docs/task2-1.png)
+
+### Console view:
+![Task #2. Console view](docs/task2-2.png)
