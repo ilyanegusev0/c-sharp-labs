@@ -30,7 +30,13 @@ namespace TaskTracker
 
         public void Save(string path)
         {
-            string json = JsonSerializer.Serialize(this);
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+            };
+
+            string json = JsonSerializer.Serialize(this, options);
             File.WriteAllText(path, json);
             Console.WriteLine($"\nSaved {Tasks.Count} tasks.");
         }
