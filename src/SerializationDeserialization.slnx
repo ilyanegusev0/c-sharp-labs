@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SerializationDeserialization/SerializationDeserialization.csproj" />
+  <Project Path="TaskTracker/TaskTracker.csproj" />
+</Solution>
