@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="SerializationDeserialization/SerializationDeserialization.csproj" />
-  <Project Path="TaskTracker/TaskTracker.csproj" />
+  <Project Path="Task2/Task2.csproj" Id="cb2d7bcd-19c1-4dfc-a1da-14d3db5e0bb6" />
+  <Project Path="TaskTracker/Task1.csproj" />
 </Solution>
