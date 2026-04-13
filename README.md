@@ -50,3 +50,13 @@
 ### JSON-file:
 
 ![Task #4. JSON-file](Task4/screen2.png)
+
+## Task #5
+
+### Console view:
+
+![Task #5. Console view](Task5/screen1.png)
+
+### JSON-file:
+
+![Task #5. JSON-file](Task5/screen2.png)
