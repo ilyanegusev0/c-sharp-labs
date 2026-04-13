@@ -23,10 +23,20 @@
 
 ## Task #2
 
+### Console view:
+
+![Task #2. Console view](Task2/screen2.png)
+
 ### JSON-file:
 
 ![Task #2. JSON-file](Task2/screen1.png)
 
+## Task #3
+
 ### Console view:
 
-![Task #2. Console view](Task2/screen2.png)
+![Task #3. Console view](Task3/screen1.png)
+
+### JSON-file:
+
+![Task #3. JSON-file](Task3/screen2.png)
