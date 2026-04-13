@@ -60,3 +60,17 @@
 ### JSON-file:
 
 ![Task #5. JSON-file](Task5/screen2.png)
+
+## Task #6
+
+### Before:
+
+![Task #6. JSON-file (before)](Task6/screen3.png)
+
+![Task #6. Console view (before)](Task6/screen1.png)
+
+### After:
+
+![Task #6. JSON-file (after)](Task6/screen4.png)
+
+![Task #6. Console view (after)](Task6/screen2.png)
