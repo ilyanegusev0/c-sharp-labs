@@ -74,3 +74,17 @@
 ![Task #6. JSON-file (after)](Task6/screen4.png)
 
 ![Task #6. Console view (after)](Task6/screen2.png)
+
+## Task #7
+
+### Latest version:
+
+![Task #7. JSON-file (latest)](Task7/screen1.png)
+
+![Task #7. Console view (latest)](Task7/screen2.png)
+
+### Previous version:
+
+![Task #7. JSON-file (previous)](Task7/screen3.png)
+
+![Task #7. Console view (previous)](Task7/screen4.png)
