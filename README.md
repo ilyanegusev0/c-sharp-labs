@@ -11,20 +11,22 @@
 
 ### First launch:
 
-![Task #1. First launch](docs/task1-1.png)
+![Task #1. First launch](Task1/screen1.png)
 
 ### Second launch:
 
-![Task #1. Second launch](docs/task1-3.png)
+![Task #1. Second launch](Task1/screen3.png)
 
 ### JSON-file:
 
-![Task #1. JSON-file](docs/task1-2.png)
+![Task #1. JSON-file](Task1/screen2.png)
 
 ## Task #2
 
 ### JSON-file:
-![Task #2. JSON-file](docs/task2-1.png)
+
+![Task #2. JSON-file](Task2/screen1.png)
 
 ### Console view:
-![Task #2. Console view](docs/task2-2.png)
+
+![Task #2. Console view](Task2/screen2.png)
