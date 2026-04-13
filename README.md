@@ -88,3 +88,17 @@
 ![Task #7. JSON-file (previous)](Task7/screen3.png)
 
 ![Task #7. Console view (previous)](Task7/screen4.png)
+
+## Task #8
+
+### Working file:
+
+![Task #8. JSON-file (working)](Task8/screen1.png)
+
+![Task #8. Console view (working)](Task8/screen2.png)
+
+### Corrupted file:
+
+![Task #8. JSON-file (corrupted)](Task8/screen3.png)
+
+![Task #8. Console view (corrupted)](Task8/screen4.png)
