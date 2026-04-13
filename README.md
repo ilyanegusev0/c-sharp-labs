@@ -22,6 +22,7 @@
 -   [Практична робота #1](https://github.com/ilyanegusev0/c-sharp-labs/tree/pr1-sem4)
 -   [Практична робота #2](https://github.com/ilyanegusev0/c-sharp-labs/tree/pr2-sem4)
 -   [Практична робота #3](https://github.com/ilyanegusev0/c-sharp-labs/tree/pr3-sem4)
+-   [Практична робота #4](https://github.com/ilyanegusev0/c-sharp-labs/tree/pr4-sem4)
 
 ### Модульні роботи:
 
